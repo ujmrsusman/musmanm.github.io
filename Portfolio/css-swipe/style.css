@@ -1,0 +1,64 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background: -webkit-linear-gradient(45deg, #E91E63, #F06292);
+  background: linear-gradient(45deg, #E91E63, #F06292);
+}
+
+.swiper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 260px;
+}
+.swiper .swipe-btn {
+  cursor: pointer;
+}
+.swiper .swipe-btn.back-to-start {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-transform: translateX(0) !important;
+          transform: translateX(0) !important;
+}
+.swiper .swipe-btn .circle {
+  fill: #ed7000;
+}
+.swiper .swipe-btn .arrow {
+  stroke: #ed7000;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  fill: #f4ece1;
+}
+.swiper .swipe-end {
+  fill-rule: evenodd;
+  stroke: #ed7000;
+  stroke-width: 2px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  fill: none;
+}
+.swiper .dotted-line circle {
+  fill: #0d3d7d;
+}
+
+.unlock {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #0d3d7d;
+  text-align: center;
+  padding: 10px;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+}
+.unlock.unlocked {
+  opacity: 1;
+}
