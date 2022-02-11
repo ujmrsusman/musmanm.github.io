@@ -10,7 +10,7 @@ const COMMANDS = {
     '<span class="code">Queens University, Canada :</span><span class="timeline"> Bachelors of Applied Science in Computer Engineering',
   resume: "<a href='./Resume2.0.pdf' class='success link'>resume.pdf</a>",
   experience: 
-  '<span class="code">Rogers Communications</span><span class="timeline"> (June 2018 - Current)</span><span class="jobtitle"> Sr. Cloud Automation Developer</span> <br> <span class="code">Brookfield Renewables (Queens TEAM)</span><span class="timeline"> (Sept 2017 - May 2018)</span><span class="jobtitle"> Data Analyst</span> <br> <span class="code">Advanced Micro Devices (AMD)</span><span class="timeline"> (May 2016 - Aug 2018)</span><span class="jobtitle"> System Software Enigneer</span>',
+  '<span class="code">Rogers Communications</span><span class="timeline"> (June 2018 - Current)</span><span class="jobtitle"> Sr. Cloud Data Developer</span> <br> <span class="code">Brookfield Renewables (Queens TEAM)</span><span class="timeline"> (Sept 2017 - May 2018)</span><span class="jobtitle"> Data Analyst</span> <br> <span class="code">Advanced Micro Devices (AMD)</span><span class="timeline"> (May 2016 - Aug 2018)</span><span class="jobtitle"> System Software Enigneer</span>',
   contact:
     "You can contact me on any of following links:<br><a href='https://www.facebook.com/usmanMUUM' class='success link'>Facebook</a> ,<a href='https://www.instagram.com/musmanm95/' class='success link'>Instagram</a>, <a href='https://www.linkedin.com/in/muhammadmajeed/' class='success link'>LinkedIn</a>"
 };
