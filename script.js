@@ -5,7 +5,7 @@ const COMMANDS = {
   about:
     "Hello 👋<br>I'm Muhammad Majeed. I’m a 25 yr old Software Engineer currently living in Toronto, Canada. I have always been fascinated by computers, and since I was in elementary school I knew I would end up in a career working with them. From my point of view it doesn't matter what you know, any programmer worth their salt can learn what they need to know in short order. What matters more is how you think, and that's the part that fascinates me.<br><br> Outside of coding, you can find me playing video games or working out!",
   skills:
-    '<span class="code">Languages:</span> Python, javascript, Java, C#, C++<br><span class="code">Technologies:</span> Git, SQL, Azure, AWS, DevOps<br><span class="code">Frameworks:</span> React.js, Vue.js, Django, Node.js, Loopback',
+      '<span class="code">Languages:</span> Python, javascript, Java, MySQL, C++<br><span class="code">Technologies:</span> Git, SQL, Azure, AWS, DevOps<br><span class="code">Frameworks:</span> Spark, React.js, Django, Node.js, Loopback',
   education:
     '<span class="code">Queens University, Canada :</span><span class="timeline"> Bachelors of Applied Science in Computer Engineering',
   resume: "<a href='./Resume2.0.pdf' class='success link'>resume.pdf</a>",
